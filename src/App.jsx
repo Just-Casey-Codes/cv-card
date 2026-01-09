@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 
 function App() {
@@ -8,8 +9,7 @@ function App() {
     <div className="min-vh-100 d-flex align-items-center bg-light">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-6 col-lg-5">
-            <div className="card shadow-lg card-background position-relative">
+            <div className="card shadow-lg card-background position-relative mx-auto">
   <div className="card-body text-center p-5 position-relative" style={{ zIndex: 1 }}>
                 <h1 className="fw-bold mb-1">Casey Peters</h1>
                 <p className="text-muted mb-4">
@@ -46,7 +46,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
