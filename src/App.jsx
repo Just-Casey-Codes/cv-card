@@ -13,7 +13,7 @@ function App() {
   <div className="card-body text-center p-5 position-relative" style={{ zIndex: 1 }}>
                 <h1 className="fw-bold mb-1">Casey Peters</h1>
                 <p className="text-muted mb-4">
-                  Junior Full Stack Developer
+                  Full Stack Developer
                 </p>
 
                 <div className="d-grid gap-3">
